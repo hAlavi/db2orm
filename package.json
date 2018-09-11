@@ -1,0 +1,37 @@
+{
+  "name": "db2orm",
+  "version": "1.0.1",
+  "description": "ORM for DB2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=*, node ./test.js",
+    "debug:silent": "node ./test.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.2",
+    "debug": "^4.0.0",
+    "depd": "^1.1.2",
+    "inflection": "^1.12.0",
+    "lodash": "^4.17.10",
+    "minimatch": "^3.0.4",
+    "qs": "^6.5.2",
+    "shortid": "^2.2.13",
+    "strong-globalize": "^4.1.1",
+    "traverse": "^0.6.6",
+    "uuid": "^3.3.2",
+    "msgpack5": "^4.2.0",
+    "unzipper": "^0.9.3",
+    "ibm_db": "^2.4.0"
+  },
+  "keywords": [
+    "DB2",
+    "ORM",
+    "SQL",
+    "LOOPBACK",
+    "STRONGLOOP"
+  ],
+  "author": "RouhAlavi",
+  "license": "ISC"
+}
