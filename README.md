@@ -7,6 +7,7 @@ It's going to be simple, just run :
 
 ## SAMPLE
 you can run the code inside the repo by running this inside test folder : `npm run debug`
+or for silent test mode : `npm run debug:silent`
 
 Simply specify your model in a seperate file and include it in the project.
 
