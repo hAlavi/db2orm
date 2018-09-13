@@ -4,9 +4,7 @@
   "description": "ORM for DB2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "DEBUG=*, node ./test/index.js",
-    "debug:silent": "node ./test/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "async": "^2.6.0",

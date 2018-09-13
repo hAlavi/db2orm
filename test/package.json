@@ -1,0 +1,25 @@
+{
+  "name": "db2orm-example",
+  "version": "1.0.0",
+  "description": "DB2Orm Example ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=*, node index.js",
+    "debug:silent": "node index.js"
+  },
+  "keywords": [
+    "DB2ORM",
+    "ORM",
+    "DB",
+    "SEQUELIZE",
+    "hALAVI",
+    "ROUH",
+    "ALAVI"
+  ],
+  "author": "Rouh Alavi <alavi.s.r@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "db2orm": "^1.0.1"
+  }
+}

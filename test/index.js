@@ -1,5 +1,6 @@
-var DataSource = require('../index').DS.DataSource;
-var DB2 = require('../index').db2connector;
+var DataSource = require('db2orm').DS.DataSource;
+var DB2 = require('db2orm').db2connector;
+const PartyModel = require('./UserModel').UserModel;
 
 var config = {
   username: 'username',
@@ -13,6 +14,7 @@ var config = {
 
 var db = new DataSource(DB2, config);
 
+var UserComplexModel = db.define(UserModel.name,UserModel.model,UserModel.options);
 
 var User = db.define('User', {
   name: { type: String, length:25 },
