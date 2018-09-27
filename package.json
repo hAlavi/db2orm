@@ -1,6 +1,6 @@
 {
   "name": "db2orm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ORM for DB2",
   "main": "index.js",
   "scripts": {
