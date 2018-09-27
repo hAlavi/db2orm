@@ -1,6 +1,6 @@
 var DataSource = require('db2orm').DS.DataSource;
 var DB2 = require('db2orm').db2connector;
-const PartyModel = require('./UserModel').UserModel;
+const UserModel = require('./UserModel').UserModel;
 
 var config = {
   username: 'username',
