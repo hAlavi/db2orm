@@ -1,5 +1,5 @@
 var { DataSource, db2connector } = require('db2orm');
-const UserModel = require('./UserModel').UserModel;
+const { UserModel } = require('./UserModel');
 
 var config = {
   username: 'username',
