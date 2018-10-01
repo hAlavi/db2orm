@@ -20,6 +20,6 @@
   "author": "Rouh Alavi <alavi.s.r@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "db2orm": "^1.0.3"
+    "db2orm": "^1.0.5"
   }
 }
