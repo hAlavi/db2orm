@@ -1,5 +1,4 @@
-var DataSource = require('db2orm').DS.DataSource;
-var DB2 = require('db2orm').db2connector;
+var { DataSource, db2connector } = require('db2orm');
 const UserModel = require('./UserModel').UserModel;
 
 var config = {
@@ -12,7 +11,7 @@ var config = {
 };
 
 
-var db = new DataSource(DB2, config);
+var db = new DataSource(db2connector, config);
 
 var UserComplexModel = db.define(UserModel.name,UserModel.model,UserModel.options);
 
