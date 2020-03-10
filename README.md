@@ -13,7 +13,8 @@ Simply specify your model in a seperate file and include it in the project.
 
 Code for create the sample model: (it will automatically generate the table if does not exist).
 
-` CREATE TABLE "MYSCHEMA"."USERENTITY"  (
+``` 
+CREATE TABLE "MYSCHEMA"."USERENTITY"  (
  "TITLE" CHAR(5 OCTETS), 
  "FIRSTNAME" CHAR(25 OCTETS) NOT NULL , 
  "SURNAME" CHAR(30 OCTETS) NOT NULL , 
@@ -25,4 +26,5 @@ Code for create the sample model: (it will automatically generate the table if d
  "MOBILE" CHAR(20 OCTETS) , 
  "MARITAL_STATUS" CHAR(1 OCTETS) NOT NULL , 
  "EMAIL" VARCHAR(254 OCTETS) , 
- "GENDER" CHAR(1 OCTETS) NOT NULL ) `
+ "GENDER" CHAR(1 OCTETS) NOT NULL )
+ ```
